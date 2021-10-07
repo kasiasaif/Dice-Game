@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>      
+<div class="game">
+    <div class="fix1">
+        <div class="play">Let's play!</div>
+    <button id="one">Player 1</button>
+    <button id="two">Player 2</button>
+</div>
+    <div class="player1 active">
+        <p class="p1">Player 1</p>
+        <div class="container1">
+            <p> Points:<h3 class="playerPoints" id="points1">0</h3> </p>
+            <p> Rolls: <div id="turn1">0</div> </p>
+            <p> Wins: <div id="win1">0</div> </p>
+        </div>
+        <div class="buttonContainer1">
+            <button id="btn1">Roll</button>
+        </div>
+    </div>
+    <div class="player2">
+        <p class="p2">Player 2</p>
+        <div class="container2">
+            <p> Points:<div  class="playerPoints"  id="points2">0</div> </p>
+            <p> Rolls: <div id="turn2">0</div> </p>
+            <p> Wins: <div id="win2">0</div> </p>
+        </div>
+        <div class="buttonContainer2">
+            <button id="btn2">Roll</button>
+        </div>
+    </div>
+    <img src="images/dice-1.png" class="dice" id="dice"></img>
+<script src="app.js"></script>
+</body>
+</html>
