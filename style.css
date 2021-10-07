@@ -8,16 +8,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+.mini{
+    height: 30px;
+    width: 30px;
+    
+    
+}
+.mini1{
+    color: white;
+    font-size: 20px;
+    background: #C8C8C8;
+    text-align: center;
+
+}
 .play{
-    margin-left:  45%;
-    font-size: 40px;;
+
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background: #C8C8C8;
 }
 #start{
     background-color: #6a9157;
     color: white;
 }
 .game{
-    width: 100%;
+    width: 90%;
     height: 120%;
     margin-top: 100px;
     margin-right: 100px;
